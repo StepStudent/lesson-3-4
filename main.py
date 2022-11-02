@@ -16,8 +16,6 @@ class Human:
     pass
   def food(self):
     pass
-  def money(self):
-    pass
   def work(self):
     pass
   def shopping(self):
@@ -40,4 +38,8 @@ class Auto:
     self.strength = brand_list[self.brand]['strength']
     self.fuel = brand_list[self.brand]['fuel']
     self.consumption = brand_list[self.brand]['consumption']
-
+brands_of_car = {"Tesla":{'fuel':200, "strength":100, "consumption":10},
+                 "Ford":{'fuel':100, "strength":60, "consumption":7},
+                 "Mercedes":{'fuel':200, "strength":85, "consumption":3},
+                 "Honda":{'fuel':130, "strength":90, "consumption":6},
+                 "Toyota":{'fuel':100, "strength":70, "consumption":10}}
